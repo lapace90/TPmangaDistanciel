@@ -1,0 +1,73 @@
+body {
+    font-family: 'Dela Gothic One', sans-serif;
+    background-image: url(./images/100257-OLIFRU-563.jpg);
+}
+
+h1, h2, h3 {
+    font-family: 'Dela Gothic One';
+}
+
+.navbar-brand {
+    display: inline-flex;
+}
+.logo {
+    width: 2.5rem;
+    height: 2.5rem;
+    margin-right: 0.5rem;
+}
+
+:root {
+    --bg-primary-colour: #1d1e20;
+    --bg-secondary-colour: #850606;
+    --text-colour: #fff;
+}
+
+body {
+    background-color: var(--bg-primary-colour);
+    color: var(--text-colour);
+}
+
+.navbar {
+    background-color: var(--bg-secondary-colour);
+}
+
+.nav-link {
+    color: var(--text-colour);
+}
+
+section {
+    margin: 2rem 0;
+    color: rgb(46, 48, 63);
+}
+
+section h2 {
+    position: relative;
+}
+
+section h2::before {
+    
+    position: relative;
+    left: -40px;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+#newsletter {
+    padding: 3rem 0;
+}
+
+
+
+footer {
+    background-color: var(--bg-secondary-colour);
+    color: var(--text-colour);
+    padding: 2rem 0;
+}
+
+footer a {
+    color: var(--text-colour);
+}
+
+footer img {
+    width: 100px;
+}
